@@ -1,0 +1,165 @@
+
+/* css file for tables */
+*{
+  margin: 0px;
+  padding: 0px;
+}
+html, body
+{
+  height: 100%;
+  width: 100%;
+  font-size: 100%;
+}
+span  {
+    color: red;
+  }
+h1
+{
+  padding-top: 3%;
+  font-size: 2rem;
+  text-align: center;
+}
+.bg
+{
+  background-image: linear-gradient(90deg, rgba(255,239,186,0.8),rgba(255,255,255,0.8)), url('../images/hand.png');
+  position: relative;
+  height: 100vh;
+  background-repeat: no-repeat;
+  background-position: bottom;
+}
+.sec h2 {
+    text-align: center;
+    padding-bottom: 10px;
+    padding-top: 25px;
+    font-size: 1.5rem;
+    color: #00008B;
+    text-decoration: underline;
+  }
+.sec {
+  text-align: center;
+}
+.tbl input[type="number"]
+{
+   border: none;
+   background: transparent;
+   border-bottom: 1px solid black;
+   outline: none;
+}
+
+.tb 
+{
+  margin-top: 10px;
+}
+.tb table
+{
+    border-collapse: collapse;
+    background: transparent;
+    margin: auto;
+    border: none;
+}
+  .tb table th,td
+  {
+    border:none;
+    border-bottom: 1px solid black;
+    padding: 8px 20px;
+    text-align: center;
+    color: black;
+  }
+  .tb table th
+  {
+    text-transform: uppercase;
+    font-weight: 1000;
+    color: #00008B;
+  }
+  .tb table td
+  {
+    font-size: 0.9rem;
+  }
+.tbl{
+  margin-top: -10px;
+  
+}
+.tbl table
+{
+  border-collapse: collapse;
+  margin: auto;
+  border: none;
+}
+.tbl .tab td 
+{
+  text-align: left;
+  border: none;
+}
+.tbl input[type="number"]::placeholder {
+ text-align: center;
+}
+.tbl label
+{
+  color: #00008B;
+  font-weight: bold;
+  font-family: Arial,Helvetica, sans-serif;
+  text-transform: uppercase;
+}
+.button1
+{
+  border: 1px solid black;
+  border-radius: 4px; 
+  font-family: 'Verdana',Sans-serif;
+  position: relative;
+  margin: 01px 01px;
+  display: inline-block;
+  padding: 03px 03px;
+  color: black;
+  background-color: white;
+  text-decoration: none;
+  font-size: 0.9rem;
+  overflow: hidden;
+}
+.button1:hover {
+  color: white;
+  background-color: red; 
+}
+select 
+{
+  width: 100%;
+  border: none;
+  background: transparent;
+  border-bottom: 1px solid black;
+  outline: none;
+}
+select option {
+  text-align: center;
+}
+/*Remove arrow of input fields for chrome*/
+.tbl input::-webkit-inner-spin-button ,
+.tbl input::-webkit-outer-spin-button {
+  -webkit-appearance:none;
+  -o-appearance:none;
+}
+/* For firefox*/
+.tbl input[type=number]
+{
+  -moz-appearance:textfield;
+}
+@media (max-width: 700px)
+{
+  html
+  {
+    font-size: 90%;
+  }
+}
+@media (max-width: 420px)
+{
+  html
+  {
+    font-size: 70%;
+  }
+ .bg
+ {
+  background: linear-gradient(90deg, rgba(255,239,186,0.8),rgba(255,255,255,0.8)), url('../images/hand.png') no-repeat center center fixed;
+  -webkit-background-size:cover; 
+  -moz-background-size:cover;
+  -o-background-size:cover;
+  background-size: cover;
+ }
+}
