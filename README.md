@@ -1,8 +1,11 @@
 # TRB
 It is Basic Banking system for making transactions between users.
 In transaction history all trasaction are stored.
+
 Front End: HTML,CSS,JAVASCIRPT.
+
 Back End: PHP.
+
 Database: MYSQL.
 
 
